@@ -2,9 +2,9 @@ package com.akshat.eydemo.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.akshat.eydemo.model.repo.FavModel
-import com.example.assignment.model.repo.FavDao
-import com.example.assignment.model.repo.RoomAppDb
+import com.akshat.eydemo.model.FavModel
+import com.akshat.eydemo.model.repo.FavDao
+import com.akshat.eydemo.model.repo.RoomAppDb
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

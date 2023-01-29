@@ -1,10 +1,10 @@
-package com.example.assignment.model.repo
+package com.akshat.eydemo.model.repo
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.example.assignment.model.FavModel
+import com.akshat.eydemo.model.FavModel
 
 @Database(entities = [FavModel::class], version = 1)
 abstract class RoomAppDb : RoomDatabase() {

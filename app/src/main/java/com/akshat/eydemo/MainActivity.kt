@@ -18,8 +18,8 @@ class MainActivity : AppCompatActivity() {
         viewPager.adapter = pagerAdapter
 
         TabLayoutMediator(tabLayout, viewPager) { tab, position ->
-            val tabNames = listOf(R.string.tab_one, R.string.tab_second)
-            tab.text = tabNames[position].toString()
+            val tabNames = listOf(getString(R.string.tab_one), getString(R.string.tab_second))
+            tab.text = tabNames[position]
         }.attach()
     }
 }

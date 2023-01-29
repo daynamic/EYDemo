@@ -1,7 +1,9 @@
-package com.example.assignment.model.trandingModel
+package com.akshat.eydemo.model.trendingModel
 
-data class FixedHeightDownsampled(
+data class FixedHeight(
     val height: String,
+    val mp4: String,
+    val mp4_size: String,
     val size: String,
     val url: String,
     val webp: String,

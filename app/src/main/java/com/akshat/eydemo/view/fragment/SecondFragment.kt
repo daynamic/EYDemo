@@ -24,7 +24,7 @@ class SecondFragment : Fragment(), CustomAdapter.LongPress {
 
         viewModel = ViewModelProvider(this)[FavViewModel::class.java]
         viewModel?.mFavList?.observe(viewLifecycleOwner) {
-            println("Rajneesh :- " + it.size)
+            println("Akshat  :- " + it.size)
         }
         viewModel?.getFavList()
         viewModel?.mFavList?.observe(viewLifecycleOwner) {

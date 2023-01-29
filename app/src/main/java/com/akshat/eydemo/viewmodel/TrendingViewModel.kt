@@ -2,11 +2,11 @@ package com.akshat.eydemo.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.akshat.eydemo.model.repo.FavModel
-import com.example.assignment.model.repo.FavDao
-import com.example.assignment.model.repo.Repository
-import com.example.assignment.model.repo.RoomAppDb
-import com.example.assignment.model.trandingModel.Data
+import com.akshat.eydemo.model.FavModel
+import com.akshat.eydemo.model.repo.FavDao
+import com.akshat.eydemo.model.repo.Repository
+import com.akshat.eydemo.model.repo.RoomAppDb
+import com.akshat.eydemo.model.trendingModel.Data
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -28,7 +28,7 @@ class TrendingViewModel : ViewModel() {
                 mFavDao.insertFav(FavModel(id))
                 message?.postValue("Added")
             } else {
-                message.postValue("All ready there")
+                message.postValue("Already there!")
             }
         } else {
             mFavDao.insertFav(FavModel(id))
@@ -43,7 +43,7 @@ class TrendingViewModel : ViewModel() {
                     mRepository.trending()
                 gifList.postValue((mTrendingResponseModel.data).toMutableList())
             } catch (e: Exception) {
-                println("Cart Error :- $e")
+                println("Error :- $e")
             }
         }
     }
@@ -55,7 +55,7 @@ class TrendingViewModel : ViewModel() {
                     mRepository.search(query)
                 gifList.postValue((mTrendingResponseModel.data).toMutableList())
             } catch (e: Exception) {
-                println("Cart Error :- $e")
+                println(" Error :- $e")
             }
         }
     }

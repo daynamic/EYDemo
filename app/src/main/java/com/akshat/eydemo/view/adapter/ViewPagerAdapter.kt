@@ -2,11 +2,9 @@ package com.akshat.eydemo.view.adapter
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
-import androidx.fragment.app.FragmentManager
-import androidx.fragment.app.FragmentPagerAdapter
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.example.assignment.view.fragment.FirstFragment
-import com.example.assignment.view.fragment.SecondFragment
+import com.akshat.eydemo.view.fragment.FirstFragment
+import com.akshat.eydemo.view.fragment.SecondFragment
 
 class ViewPagerAdapter(fragmentActivity: FragmentActivity) :
     FragmentStateAdapter(fragmentActivity) {

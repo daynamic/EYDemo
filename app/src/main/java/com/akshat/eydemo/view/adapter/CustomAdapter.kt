@@ -7,7 +7,7 @@ import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 import androidx.swiperefreshlayout.widget.CircularProgressDrawable
 import com.akshat.eydemo.R
-import com.akshat.eydemo.model.repo.FavModel
+import com.akshat.eydemo.model.FavModel
 import com.bumptech.glide.Glide
 
 

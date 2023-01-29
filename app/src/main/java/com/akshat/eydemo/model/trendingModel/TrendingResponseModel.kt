@@ -1,4 +1,5 @@
-package com.example.assignment.model.trandingModel
+package com.akshat.eydemo.model.trendingModel
+
 
 data class TrendingResponseModel(
     val `data`: List<Data>,

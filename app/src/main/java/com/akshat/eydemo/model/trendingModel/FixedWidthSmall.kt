@@ -1,8 +1,6 @@
-package com.example.assignment.model.trandingModel
+package com.akshat.eydemo.model.trendingModel
 
-data class Original(
-    val frames: String,
-    val hash: String,
+data class FixedWidthSmall(
     val height: String,
     val mp4: String,
     val mp4_size: String,

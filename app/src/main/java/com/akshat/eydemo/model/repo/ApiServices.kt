@@ -1,9 +1,9 @@
 package com.akshat.eydemo.model.repo
 
 
-import com.example.assignment.model.repo.RequestType.Companion.SEARCH_URI
-import com.example.assignment.model.repo.RequestType.Companion.TRENDING_URI
-import com.example.assignment.model.trandingModel.TrendingResponseModel
+import com.akshat.eydemo.model.repo.RequestType.Companion.SEARCH_URI
+import com.akshat.eydemo.model.repo.RequestType.Companion.TRENDING_URI
+import com.akshat.eydemo.model.trendingModel.TrendingResponseModel
 import retrofit2.http.GET
 import retrofit2.http.Query
 

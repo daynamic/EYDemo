@@ -1,7 +1,7 @@
 package com.akshat.eydemo
 
 import android.app.Application
-import com.example.assignment.model.repo.RoomAppDb
+import com.akshat.eydemo.model.repo.RoomAppDb
 
 class App : Application() {
     override fun onCreate() {

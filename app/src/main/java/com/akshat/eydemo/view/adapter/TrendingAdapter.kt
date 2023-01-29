@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.swiperefreshlayout.widget.CircularProgressDrawable
 import com.akshat.eydemo.R
 import com.bumptech.glide.Glide
-import com.example.assignment.model.trandingModel.Data
+import com.akshat.eydemo.model.trendingModel.Data
 
 class TrendingAdapter(private val mList: List<Data>, val mLongPress: LongPress) :
     RecyclerView.Adapter<TrendingAdapter.ViewHolder>() {

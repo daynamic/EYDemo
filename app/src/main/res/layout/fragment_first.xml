@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff"
+    android:background="@color/white"
     android:orientation="vertical"
     android:paddingTop="@dimen/margin_8">
 
@@ -15,7 +15,7 @@
         android:autofillHints="@null"
         android:background="#ffffff"
         android:elevation="@dimen/margin_4"
-        android:hint="Search"
+        android:hint="@string/search"
         android:inputType="text"
         android:minHeight="?actionBarSize"
         android:paddingHorizontal="@dimen/margin_16"

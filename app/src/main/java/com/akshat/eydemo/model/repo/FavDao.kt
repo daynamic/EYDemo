@@ -1,10 +1,11 @@
-package com.example.assignment.model.repo
+package com.akshat.eydemo.model.repo
 
 import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
-import com.example.assignment.model.FavModel
+import com.akshat.eydemo.model.FavModel
+
 
 @Dao
 interface FavDao {

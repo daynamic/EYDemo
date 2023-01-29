@@ -1,4 +1,4 @@
-package com.example.assignment.model.repo
+package com.akshat.eydemo.model.repo
 
 
 import android.util.Log
@@ -18,7 +18,7 @@ object BaseRetrofit {
     fun getApiService(): ApiServices {
         if (!BaseRetrofit::apiService.isInitialized) {
             val retrofit = Retrofit.Builder()
-                .baseUrl(RequestType.BASE_UEL)
+                .baseUrl(RequestType.BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(gethttpClient())
                 .build()
@@ -45,11 +45,6 @@ object BaseRetrofit {
         val httpLoggingInterceptor = HttpLoggingInterceptor()
         httpLoggingInterceptor.level = HttpLoggingInterceptor.Level.BODY
         builder.interceptors().add(httpLoggingInterceptor)
-//        if (BuildConfig.DEBUG) {
-//            val httpLoggingInterceptor = HttpLoggingInterceptor()
-//            httpLoggingInterceptor.level = HttpLoggingInterceptor.Level.BODY
-//            builder.interceptors().add(httpLoggingInterceptor)
-//        }
         return builder.build()
     }
 

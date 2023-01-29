@@ -1,4 +1,6 @@
-package com.example.assignment.model.trandingModel
+package com.akshat.eydemo.model.trendingModel
+
+
 
 data class Data(
     val analytics_response_payload: String,

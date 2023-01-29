@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">EY Demo</string>
+    <string name="tab_one">Trending</string>
+    <string name="tab_second">Favourite</string>
 </resources>
